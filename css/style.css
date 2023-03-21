@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a{
+    color:wheat
+}
+
+.container {
+  width: 100%;
+  max-width: 200rem;
+}
+
+.header {
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: white;
+  background-color: rgb(10, 10, 151);
+  background-image: url("https://images.pexels.com/photos/1287142/pexels-photo-1287142.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1287142.jpg&fm=jpg");
+}
+.headerTag {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.6rem;
+}
+
+.post {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-block-start: 1.5rem;
+  padding-block-end: 1.5rem;
+}
+.post h2 {
+  border-block: 0.2rem solid #ddd;
+}
+.post p {
+  padding-inline: 3rem;
+  text-align: justify;
+}
+
+footer {
+  margin-top: auto;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: white;
+  background-color: rgb(1, 1, 75);
+  width: 100%;
+  max-width: 200rem;
+  background-image: url("") no-repeat;
+  background: rgb(1, 1, 75)
+    url("https://png.pngtree.com/thumb_back/fh260/background/20200621/pngtree-abstract-modern-neon-frame-background-image_339537.jpg")
+    no-repeat center;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
